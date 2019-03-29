@@ -21,7 +21,7 @@ from .router import router
 urlpatterns = [
     path('events/', include('events.urls')),
     path('admin/', admin.site.urls),
-    # path('api/', include(router.urls)),
+    path('api/', include(router.urls)),
 ]
 
 admin.site.site_header = "管理系統"
