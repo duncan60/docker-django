@@ -11,3 +11,10 @@ make all
 docker exec -ti docker-django_web_1 bash
 
 ```
+
+### create createsuperuser
+
+```
+# into docker
+python manage.py createsuperuser
+```
